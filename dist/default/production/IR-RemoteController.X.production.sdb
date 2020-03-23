@@ -1,0 +1,219 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1705 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"46 C:\Users\eagle\Documents\GitHub\IR-RemoteController.X\newmain.c
+[v _SendText_UART SendText_UART `(v  1 e 1 0 ]
+"59
+[v _Output1T Output1T `(v  1 e 1 0 ]
+"71
+[v _Output1 Output1 `(v  1 e 1 0 ]
+"77
+[v _Output0 Output0 `(v  1 e 1 0 ]
+"82
+[v _SendIRCommand SendIRCommand `(v  1 e 1 0 ]
+"107
+[v _SelectCommand SelectCommand `(v  1 e 1 0 ]
+"115
+[v _Initialize Initialize `(v  1 e 1 0 ]
+"143
+[v _isr isr `II(v  1 e 1 0 ]
+"163
+[v _IsEqual IsEqual `(uc  1 e 1 0 ]
+"171
+[v _SetRN4020 SetRN4020 `(v  1 e 1 0 ]
+"191
+[v _main main `(v  1 e 1 0 ]
+"414 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic16f1705.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+[s S27 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"429
+[u S34 . 1 `S27 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES34  1 e 1 @12 ]
+"463
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+[s S89 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+]
+"478
+[u S96 . 1 `S89 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES96  1 e 1 @14 ]
+[s S60 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"533
+[s S69 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CCPIF 1 0 :1:2 
+]
+[u S72 . 1 `S60 1 . 1 0 `S69 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES72  1 e 1 @17 ]
+"993
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1037
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1509
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2623
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2667
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"2903
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"2951
+[v _TX1REG TX1REG `VEuc  1 e 1 @410 ]
+"3015
+[v _SPBRG SPBRG `VEuc  1 e 1 @411 ]
+"3132
+[v _RC1STA RC1STA `VEuc  1 e 1 @413 ]
+"3311
+[v _TX1STA TX1STA `VEuc  1 e 1 @414 ]
+"8001
+[v _RXPPS RXPPS `VEuc  1 e 1 @3620 ]
+"8286
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @3748 ]
+"12201
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"12825
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"12921
+[v _RCIE RCIE `VEb  1 e 0 @1165 ]
+"12923
+[v _RCIF RCIF `VEb  1 e 0 @141 ]
+"13219
+[v _TXIF TXIF `VEb  1 e 0 @140 ]
+"42 C:\Users\eagle\Documents\GitHub\IR-RemoteController.X\newmain.c
+[v _uartBuf uartBuf `[64]uc  1 e 64 0 ]
+"43
+[v _uartCharCnt uartCharCnt `uc  1 e 1 0 ]
+"44
+[v _waitingMode waitingMode `uc  1 e 1 0 ]
+"39 C:\Users\eagle\Documents\GitHub\IR-RemoteController.X\signallib.h
+[v _AQUOS AQUOS `[30][6]uc  1 e 180 @9020 ]
+"63
+[v _CEILING CEILING `[10][5]uc  1 e 50 0 ]
+"191 C:\Users\eagle\Documents\GitHub\IR-RemoteController.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"214
+} 0
+"171
+[v _SetRN4020 SetRN4020 `(v  1 e 1 0 ]
+{
+"189
+} 0
+"46
+[v _SendText_UART SendText_UART `(v  1 e 1 0 ]
+{
+"48
+[v SendText_UART@i i `uc  1 a 1 14 ]
+"46
+[v SendText_UART@data data `*.25uc  1 p 2 9 ]
+[v SendText_UART@n n `uc  1 p 1 11 ]
+"56
+} 0
+"163
+[v _IsEqual IsEqual `(uc  1 e 1 0 ]
+{
+[v IsEqual@a a `*.4uc  1 a 1 wreg ]
+"165
+[v IsEqual@i i `i  1 a 2 15 ]
+"163
+[v IsEqual@a a `*.4uc  1 a 1 wreg ]
+[v IsEqual@b b `*.25uc  1 p 2 9 ]
+[v IsEqual@n n `uc  1 p 1 11 ]
+"165
+[v IsEqual@a a `*.4uc  1 a 1 14 ]
+"169
+} 0
+"115
+[v _Initialize Initialize `(v  1 e 1 0 ]
+{
+"141
+} 0
+"143
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"149
+[v isr@d d `uc  1 a 1 13 ]
+"161
+} 0
+"107
+[v _SelectCommand SelectCommand `(v  1 e 1 0 ]
+{
+[v SelectCommand@data data `uc  1 a 1 wreg ]
+[v SelectCommand@data data `uc  1 a 1 wreg ]
+"109
+[v SelectCommand@data data `uc  1 a 1 12 ]
+"113
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
+"82 C:\Users\eagle\Documents\GitHub\IR-RemoteController.X\newmain.c
+[v _SendIRCommand SendIRCommand `(v  1 e 1 0 ]
+{
+"93
+[v SendIRCommand@j j `i  1 a 2 4 ]
+"92
+[v SendIRCommand@c c `uc  1 a 1 6 ]
+"90
+[v SendIRCommand@i_133 i `i  1 a 2 2 ]
+"85
+[v SendIRCommand@i i `i  1 a 2 0 ]
+"82
+[v SendIRCommand@data data `*.39uc  1 p 2 5 ]
+[v SendIRCommand@n n `i  1 p 2 7 ]
+"105
+} 0
+"71
+[v _Output1 Output1 `(v  1 e 1 0 ]
+{
+"75
+} 0
+"77
+[v _Output0 Output0 `(v  1 e 1 0 ]
+{
+"81
+} 0
+"59
+[v _Output1T Output1T `(v  1 e 1 0 ]
+{
+"63
+[v Output1T@i i `uc  1 a 1 2 ]
+"62
+[v Output1T@repeatN repeatN `DCCi  1 s 2 repeatN ]
+"69
+} 0
